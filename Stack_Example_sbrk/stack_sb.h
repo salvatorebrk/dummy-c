@@ -23,6 +23,6 @@ stack_sb_p stack_pop(stack_sb_p st);
 void* stack_print_last_element(stack_sb_p st);
 stack_sb_p stack_clear(stack_sb_p st);
 stack_sb_p stack_delete_element(stack_sb_p st,int v);
-int stack_len(stack_sb_p st);
+unsigned int stack_len(stack_sb_p st);
 
 #endif

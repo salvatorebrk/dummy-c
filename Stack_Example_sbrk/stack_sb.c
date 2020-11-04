@@ -65,10 +65,10 @@ stack_sb_p stack_delete_element(stack_sb_p st,int v){
     return st;
 }
 
-int stack_len(stack_sb_p st){
+unsigned int stack_len(stack_sb_p st){
     stack_sb_t *element;
     element=st;
-    int cnt=0;
+    unsigned int cnt=0;
     while (element!=NULL){
         element=element->next;
         cnt++;
